@@ -275,7 +275,7 @@ import java.util.ArrayList;
                     WeatherContract.LocationEntry.CONTENT_URI,
                     contentValues
             );
-
+            Log.v(LOG_TAG,"bla bla");
             return ContentUris.parseId(insertUri);
         }
     }
